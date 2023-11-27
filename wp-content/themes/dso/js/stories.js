@@ -40,11 +40,11 @@ document.addEventListener('alpine:init', function() {
 
                     if (this.currentCategorySlug === "all-stories")
                         response = await fetch(
-                            `/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
+                            `https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
                         );
                     else
                         response = await fetch(
-                            `/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
+                            `https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
                         );
 
                     if (response.status === 200) {
@@ -93,14 +93,14 @@ document.addEventListener('alpine:init', function() {
 
                     if (this.currentCategorySlug === "all-stories") {
                         response = await fetch(
-                            `/wp-content/themes/dso/acf-json/profile_page_1.json`
+                            `https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/acf-json/profile_page_1.json`
                         );
                         responseTotal = await fetch(
-                            `/wp-content/themes/dso/acf-json/profile_total.json`
+                            `https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/acf-json/profile_total.json`
                         );
                     } else
                         response = await fetch(
-                            `/wp-content/themes/dso/acf-json/profile_cat_${this.currentCategoryId}.json`
+                            `https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/acf-json/profile_cat_${this.currentCategoryId}.json`
                         );
 
 
